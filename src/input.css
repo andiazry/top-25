@@ -9,3 +9,9 @@
         src: url("../src/fonts/NeueMontreal-Regular.otf") format("opentype");
     }
 }
+
+@layer utilities {
+    .no-scrollbar::-webkit-scrollbar {
+        display: none;
+    }
+}
