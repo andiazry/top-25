@@ -3,15 +3,25 @@
 @tailwind utilities;
 
 @layer base {
-    @font-face {
-        font-family: "neue";
-        font-weight: 400;
-        src: url("../src/fonts/NeueMontreal-Regular.otf") format("opentype");
-    }
+  @font-face {
+    font-family: "neue";
+    font-weight: 400;
+    src: url("../src/fonts/NeueMontreal-Regular.otf") format("opentype");
+  }
+  @font-face {
+    font-family: "pangram-rounded";
+    font-weight: 700;
+    src: url("../src/fonts/PPPangramSansRounded-NarrowExtraboldItalic.otf");
+  }
+  @font-face {
+    font-family: "object-sans";
+    font-weight: 400;
+    src: url("../src/fonts/ObjectSans-Regular.otf");
+  }
 }
 
 @layer utilities {
-    .no-scrollbar::-webkit-scrollbar {
-        display: none;
-    }
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
 }
