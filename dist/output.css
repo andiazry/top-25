@@ -447,6 +447,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   src: url("../src/fonts/ObjectSans-Regular.otf");
 }
 
+@font-face {
+  font-family: "thunder-black";
+
+  font-weight: 900;
+
+  src: url("../src/fonts/Thunder-BlackLC.otf");
+}
+
 *, ::before, ::after {
   --tw-translate-x: 0;
   --tw-translate-y: 0;
@@ -576,23 +584,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   width: 6rem;
 }
 
-.w-auto {
-  width: auto;
-}
-
-.w-36 {
-  width: 9rem;
-}
-
 .w-fit {
   width: -webkit-fit-content;
   width: -moz-fit-content;
   width: fit-content;
-}
-
-.rotate-3 {
-  --tw-rotate: 3deg;
-  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .rotate-6 {
@@ -620,20 +615,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   flex-wrap: nowrap;
 }
 
-.content-between {
-  align-content: space-between;
-}
-
 .items-center {
   align-items: center;
 }
 
 .justify-between {
   justify-content: space-between;
-}
-
-.justify-around {
-  justify-content: space-around;
 }
 
 .overflow-x-auto {
@@ -648,12 +635,12 @@ Ensure the default browser behavior of the `hidden` attribute.
   overflow-y: hidden;
 }
 
-.rounded-full {
-  border-radius: 9999px;
+.scroll-smooth {
+  scroll-behavior: smooth;
 }
 
-.rounded-xl {
-  border-radius: 0.75rem;
+.rounded-full {
+  border-radius: 9999px;
 }
 
 .rounded-t-full {
@@ -705,11 +692,6 @@ Ensure the default browser behavior of the `hidden` attribute.
   background-color: rgb(249 115 22 / var(--tw-bg-opacity));
 }
 
-.bg-sky-500 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(14 165 233 / var(--tw-bg-opacity));
-}
-
 .object-cover {
   -o-object-fit: cover;
      object-fit: cover;
@@ -750,6 +732,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
 }
 
+.font-thunder {
+  font-family: thunder-black, neue;
+}
+
 .text-\[170px\] {
   font-size: 170px;
 }
@@ -779,14 +765,20 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.text-xl {
-  font-size: 1.25rem;
-  line-height: 1.75rem;
+.text-\[200px\] {
+  font-size: 200px;
 }
 
-.text-9xl {
-  font-size: 8rem;
-  line-height: 1;
+.text-\[300px\] {
+  font-size: 300px;
+}
+
+.text-\[250px\] {
+  font-size: 250px;
+}
+
+.text-\[220px\] {
+  font-size: 220px;
 }
 
 .font-bold {
@@ -801,12 +793,60 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 600;
 }
 
+.uppercase {
+  text-transform: uppercase;
+}
+
 .italic {
   font-style: italic;
 }
 
 .leading-none {
   line-height: 1;
+}
+
+.leading-tight {
+  line-height: 1.25;
+}
+
+.leading-\[-1px\] {
+  line-height: -1px;
+}
+
+.leading-\[-100px\] {
+  line-height: -100px;
+}
+
+.leading-\[100px\] {
+  line-height: 100px;
+}
+
+.leading-\[10px\] {
+  line-height: 10px;
+}
+
+.leading-\[300px\] {
+  line-height: 300px;
+}
+
+.leading-\[200px\] {
+  line-height: 200px;
+}
+
+.leading-\[220px\] {
+  line-height: 220px;
+}
+
+.leading-3 {
+  line-height: .75rem;
+}
+
+.leading-4 {
+  line-height: 1rem;
+}
+
+.leading-\[180px\] {
+  line-height: 180px;
 }
 
 .tracking-normal {
@@ -826,6 +866,26 @@ Ensure the default browser behavior of the `hidden` attribute.
 .text-zinc-900 {
   --tw-text-opacity: 1;
   color: rgb(24 24 27 / var(--tw-text-opacity));
+}
+
+.text-red-600 {
+  --tw-text-opacity: 1;
+  color: rgb(220 38 38 / var(--tw-text-opacity));
+}
+
+.text-gray-900 {
+  --tw-text-opacity: 1;
+  color: rgb(17 24 39 / var(--tw-text-opacity));
+}
+
+.text-amber-400 {
+  --tw-text-opacity: 1;
+  color: rgb(251 191 36 / var(--tw-text-opacity));
+}
+
+.text-stone-900 {
+  --tw-text-opacity: 1;
+  color: rgb(28 25 23 / var(--tw-text-opacity));
 }
 
 .text-opacity-80 {

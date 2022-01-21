@@ -18,6 +18,12 @@
     font-weight: 400;
     src: url("../src/fonts/ObjectSans-Regular.otf");
   }
+
+  @font-face {
+    font-family: "thunder-black";
+    font-weight: 900;
+    src: url("../src/fonts/Thunder-BlackLC.otf");
+  }
 }
 
 @layer utilities {

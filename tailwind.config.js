@@ -3,14 +3,15 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        'neue': ['neue', 'sans-serif'],
-        'rounded': ['pangram-rounded', 'neue'],
-        'accent': ['object-sans', 'neue']
+        neue: ["neue", "sans-serif"],
+        rounded: ["pangram-rounded", "neue"],
+        accent: ["object-sans", "neue"],
+        thunder: ["thunder-black", "neue"],
       },
       colors: {
-        customYellow: '#FFEF93',
+        customYellow: "#FFEF93",
       },
     },
   },
   plugins: [],
-}
+};
