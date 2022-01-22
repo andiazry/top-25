@@ -20,9 +20,27 @@
   }
 
   @font-face {
-    font-family: "thunder-black";
+    font-family: "thunderBlack";
     font-weight: 900;
     src: url("../src/fonts/Thunder-BlackLC.otf");
+  }
+
+  @font-face {
+    font-family: "thunderRegular";
+    font-weight: 400;
+    src: url("../src/fonts/Thunder-LC.otf");
+  }
+
+  @font-face {
+    font-family: "agrandirNarrow";
+    font-weight: 400;
+    src: url("../src/fonts/Agrandir-Narrow.otf");
+  }
+
+  @font-face {
+    font-family: "agrandirNarrowBlack";
+    font-weight: 900;
+    src: url("../src/fonts/Agrandir-NarrowBlack.otf");
   }
 }
 
