@@ -3,13 +3,10 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        neue: ["neue", "sans-serif"],
-        rounded: ["pangram-rounded", "neue"],
-        accent: ["object-sans", "neue"],
-        thunderBlack: ["thunderBlack", "neue"],
-        thunderRegular: ["thunderRegular", "neue"],
-        agrandirNarrow: ["agrandirNarrow", "neue"],
-        agrandirNarrowBlack: ["agrandirNarrowBlack", "neue"],
+        agrandirNarrow: ["agrandirNarrow", "sans-serif"],
+        agrandirNarrowBlack: ["agrandirNarrowBlack", "sans-serif"],
+        editorial: ["editorial", "serif"],
+        pangramBlack: ["pangramBlack", "sans-serif"],
       },
       colors: {
         customYellow: "#FFEF93",

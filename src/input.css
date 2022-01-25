@@ -4,34 +4,6 @@
 
 @layer base {
   @font-face {
-    font-family: "neue";
-    font-weight: 400;
-    src: url("../src/fonts/NeueMontreal-Regular.otf") format("opentype");
-  }
-  @font-face {
-    font-family: "pangram-rounded";
-    font-weight: 700;
-    src: url("../src/fonts/PPPangramSansRounded-NarrowExtraboldItalic.otf");
-  }
-  @font-face {
-    font-family: "object-sans";
-    font-weight: 400;
-    src: url("../src/fonts/ObjectSans-Regular.otf");
-  }
-
-  @font-face {
-    font-family: "thunderBlack";
-    font-weight: 900;
-    src: url("../src/fonts/Thunder-BlackLC.otf");
-  }
-
-  @font-face {
-    font-family: "thunderRegular";
-    font-weight: 400;
-    src: url("../src/fonts/Thunder-LC.otf");
-  }
-
-  @font-face {
     font-family: "agrandirNarrow";
     font-weight: 400;
     src: url("../src/fonts/Agrandir-Narrow.otf");
@@ -41,6 +13,18 @@
     font-family: "agrandirNarrowBlack";
     font-weight: 900;
     src: url("../src/fonts/Agrandir-NarrowBlack.otf");
+  }
+
+  @font-face {
+    font-family: "editorial";
+    font-weight: 400;
+    src: url("../src/fonts/EditorialNew-Regular.otf");
+  }
+
+  @font-face {
+    font-family: "pangramBlack";
+    font-weight: 900;
+    src: url("../src/fonts/Pangram-Black.otf");
   }
 }
 
