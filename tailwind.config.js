@@ -7,9 +7,10 @@ module.exports = {
         agrandirNarrowBlack: ["agrandirNarrowBlack", "sans-serif"],
         editorial: ["editorial", "serif"],
         pangramBlack: ["pangramBlack", "sans-serif"],
+        pangram: ["pangram", "sans-serif"],
       },
       colors: {
-        customYellow: "#FFEF93",
+        customYellow: "#FAECAA",
         offWhite: "#F8F6F2",
       },
     },

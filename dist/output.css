@@ -424,22 +424,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 }
 
 @font-face {
-  font-family: "agrandirNarrow";
-
-  font-weight: 400;
-
-  src: url("../src/fonts/Agrandir-Narrow.otf");
-}
-
-@font-face {
-  font-family: "agrandirNarrowBlack";
-
-  font-weight: 900;
-
-  src: url("../src/fonts/Agrandir-NarrowBlack.otf");
-}
-
-@font-face {
   font-family: "editorial";
 
   font-weight: 400;
@@ -453,6 +437,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-weight: 900;
 
   src: url("../src/fonts/Pangram-Black.otf");
+}
+
+@font-face {
+  font-family: "pangram";
+
+  font-weight: 400;
+
+  src: url("../src/fonts/Pangram-Regular.otf");
 }
 
 *, ::before, ::after {
@@ -520,8 +512,22 @@ Ensure the default browser behavior of the `hidden` attribute.
   bottom: 0.75rem;
 }
 
+.col-span-2 {
+  grid-column: span 2 / span 2;
+}
+
 .m-12 {
   margin: 3rem;
+}
+
+.mx-12 {
+  margin-left: 3rem;
+  margin-right: 3rem;
+}
+
+.my-24 {
+  margin-top: 6rem;
+  margin-bottom: 6rem;
 }
 
 .mt-16 {
@@ -544,8 +550,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   margin-top: 1.5rem;
 }
 
-.mb-1 {
-  margin-bottom: 0.25rem;
+.mb-2 {
+  margin-bottom: 0.5rem;
 }
 
 .mb-6 {
@@ -554,6 +560,22 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .mr-4 {
   margin-right: 1rem;
+}
+
+.mb-1 {
+  margin-bottom: 0.25rem;
+}
+
+.mt-24 {
+  margin-top: 6rem;
+}
+
+.mt-32 {
+  margin-top: 8rem;
+}
+
+.mb-24 {
+  margin-bottom: 6rem;
 }
 
 .box-border {
@@ -578,6 +600,10 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .h-\[650px\] {
   height: 650px;
+}
+
+.h-auto {
+  height: auto;
 }
 
 .h-screen {
@@ -664,6 +690,10 @@ Ensure the default browser behavior of the `hidden` attribute.
   border-top-right-radius: 9999px;
 }
 
+.border {
+  border-width: 1px;
+}
+
 .border-y {
   border-top-width: 1px;
   border-bottom-width: 1px;
@@ -671,10 +701,6 @@ Ensure the default browser behavior of the `hidden` attribute.
 
 .border-b {
   border-bottom-width: 1px;
-}
-
-.border-t {
-  border-top-width: 1px;
 }
 
 .border-black {
@@ -695,6 +721,11 @@ Ensure the default browser behavior of the `hidden` attribute.
 .bg-red-600 {
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
+}
+
+.bg-customYellow {
+  --tw-bg-opacity: 1;
+  background-color: rgb(250 236 170 / var(--tw-bg-opacity));
 }
 
 .bg-red-500 {
@@ -733,6 +764,14 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding: 2.5rem;
 }
 
+.p-20 {
+  padding: 5rem;
+}
+
+.p-6 {
+  padding: 1.5rem;
+}
+
 .px-4 {
   padding-left: 1rem;
   padding-right: 1rem;
@@ -743,54 +782,98 @@ Ensure the default browser behavior of the `hidden` attribute.
   padding-bottom: 1.5rem;
 }
 
+.px-10 {
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
+.py-24 {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+.py-16 {
+  padding-top: 4rem;
+  padding-bottom: 4rem;
+}
+
+.px-6 {
+  padding-left: 1.5rem;
+  padding-right: 1.5rem;
+}
+
+.px-12 {
+  padding-left: 3rem;
+  padding-right: 3rem;
+}
+
+.px-16 {
+  padding-left: 4rem;
+  padding-right: 4rem;
+}
+
 .pb-12 {
   padding-bottom: 3rem;
 }
 
-.pl-32 {
-  padding-left: 8rem;
+.pl-10 {
+  padding-left: 2.5rem;
 }
 
-.pt-12 {
-  padding-top: 3rem;
+.pr-10 {
+  padding-right: 2.5rem;
+}
+
+.pt-24 {
+  padding-top: 6rem;
+}
+
+.pb-24 {
+  padding-bottom: 6rem;
+}
+
+.pt-32 {
+  padding-top: 8rem;
+}
+
+.pb-32 {
+  padding-bottom: 8rem;
+}
+
+.pb-20 {
+  padding-bottom: 5rem;
+}
+
+.pb-16 {
+  padding-bottom: 4rem;
+}
+
+.pl-12 {
+  padding-left: 3rem;
+}
+
+.pr-12 {
+  padding-right: 3rem;
 }
 
 .text-right {
   text-align: right;
 }
 
-.font-agrandirNarrow {
-  font-family: agrandirNarrow, sans-serif;
-}
-
-.font-agrandirNarrowBlack {
-  font-family: agrandirNarrowBlack, sans-serif;
-}
-
-.font-serif {
-  font-family: ui-serif, Georgia, Cambria, "Times New Roman", Times, serif;
-}
-
-.font-editorial {
-  font-family: editorial, serif;
+.font-pangram {
+  font-family: pangram, sans-serif;
 }
 
 .font-pangramBlack {
   font-family: pangramBlack, sans-serif;
 }
 
-.text-\[200px\] {
-  font-size: 200px;
+.font-editorial {
+  font-family: editorial, serif;
 }
 
-.text-2xl {
-  font-size: 1.5rem;
-  line-height: 2rem;
-}
-
-.text-lg {
-  font-size: 1.125rem;
-  line-height: 1.75rem;
+.text-\[230px\] {
+  font-size: 230px;
 }
 
 .text-3xl {
@@ -803,16 +886,18 @@ Ensure the default browser behavior of the `hidden` attribute.
   line-height: 1.75rem;
 }
 
-.text-\[160px\] {
-  font-size: 160px;
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
 }
 
-.text-\[250px\] {
-  font-size: 250px;
+.text-\[200px\] {
+  font-size: 200px;
 }
 
-.text-\[230px\] {
-  font-size: 230px;
+.text-2xl {
+  font-size: 1.5rem;
+  line-height: 2rem;
 }
 
 .font-bold {
@@ -831,20 +916,8 @@ Ensure the default browser behavior of the `hidden` attribute.
   font-style: italic;
 }
 
-.leading-\[150px\] {
-  line-height: 150px;
-}
-
-.leading-\[130px\] {
-  line-height: 130px;
-}
-
 .leading-\[170px\] {
   line-height: 170px;
-}
-
-.leading-\[140px\] {
-  line-height: 140px;
 }
 
 .leading-\[160px\] {
@@ -884,12 +957,60 @@ Ensure the default browser behavior of the `hidden` attribute.
   transition-duration: 150ms;
 }
 
+.transition-transform {
+  transition-property: transform;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  transition-duration: 150ms;
+}
+
+.hover\:translate-x-1:hover {
+  --tw-translate-x: 0.25rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:translate-x-2:hover {
+  --tw-translate-x: 0.5rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.hover\:translate-x-3:hover {
+  --tw-translate-x: 0.75rem;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .hover\:rotate-3:hover {
   --tw-rotate: 3deg;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.hover\:border-0:hover {
+  border-width: 0px;
+}
+
+.hover\:border-none:hover {
+  border-style: none;
+}
+
+.hover\:bg-black:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(0 0 0 / var(--tw-bg-opacity));
+}
+
+.hover\:bg-amber-400:hover {
+  --tw-bg-opacity: 1;
+  background-color: rgb(251 191 36 / var(--tw-bg-opacity));
+}
+
+.hover\:text-white:hover {
+  --tw-text-opacity: 1;
+  color: rgb(255 255 255 / var(--tw-text-opacity));
+}
+
 @media (min-width: 1024px) {
+  .lg\:grid-cols-3 {
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+  }
+
   .lg\:grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
