@@ -1,10 +1,12 @@
 module.exports = {
-  content: ["./src/**/*.{html,js}"],
+  content: [
+    "./index.html",
+    "./list-template.html",
+    "./src/**/*.{vue,js,ts,jsx,tsx,html}"
+  ],
   theme: {
     extend: {
       fontFamily: {
-        agrandirNarrow: ["agrandirNarrow", "sans-serif"],
-        agrandirNarrowBlack: ["agrandirNarrowBlack", "sans-serif"],
         editorial: ["editorial", "serif"],
         pangramBlack: ["pangramBlack", "sans-serif"],
         pangram: ["pangram", "sans-serif"],
@@ -16,4 +18,4 @@ module.exports = {
     },
   },
   plugins: [],
-};
+}

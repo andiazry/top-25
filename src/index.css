@@ -6,24 +6,18 @@
   @font-face {
     font-family: "editorial";
     font-weight: 400;
-    src: url("../src/fonts/EditorialNew-Regular.otf");
+    src: url("./fonts/EditorialNew-Regular.otf");
   }
 
   @font-face {
     font-family: "pangramBlack";
     font-weight: 900;
-    src: url("../src/fonts/Pangram-Black.otf");
+    src: url("./fonts/Pangram-Black.otf");
   }
 
   @font-face {
     font-family: "pangram";
     font-weight: 400;
-    src: url("../src/fonts/Pangram-Regular.otf");
-  }
-}
-
-@layer utilities {
-  .no-scrollbar::-webkit-scrollbar {
-    display: none;
+    src: url("./fonts/Pangram-Regular.otf");
   }
 }
