@@ -1,0 +1,52 @@
+[
+  {
+    "name": "Andi Azry",
+    "occupation": "Designer",
+    "location": "NYC, NY",
+    "top-25-songs": [
+      {
+        "position": 1,
+        "song": "Angeles",
+        "artist": "Elliott Smith",
+        "album": "Either/Or"
+      },
+      {
+        "position": 2,
+        "song": "Girl from the North Country",
+        "artist": "Bob Dylan",
+        "album": "The Freewheelin' Bob Dylan"
+      },
+      {
+        "position": 3,
+        "song": "Strangers",
+        "artist": "The Kinks",
+        "album": "Lola Versus Powerman and the Moneygoround, Pt. One"
+      }
+    ]
+  },
+  {
+    "name": "Cathleen Clarke",
+    "occupation": "Artist",
+    "location": "NYC, NY",
+    "top-25-songs": [
+      {
+        "position": 1,
+        "song": "Angeles",
+        "artist": "Elliott Smith",
+        "album": "Either/Or"
+      },
+      {
+        "position": 2,
+        "song": "Girl from the North Country",
+        "artist": "Bob Dylan",
+        "album": "The Freewheelin' Bob Dylan"
+      },
+      {
+        "position": 3,
+        "song": "Strangers",
+        "artist": "The Kinks",
+        "album": "Lola Versus Powerman and the Moneygoround, Pt. One"
+      }
+    ]
+  }
+]
