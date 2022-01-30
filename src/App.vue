@@ -18,14 +18,8 @@
     <div>
       <h2 class="font-pangramBlack text-xl ml-12 uppercase">Real hip folk</h2>
     </div>
-    <section class="flex flex-nowrap overflow-x-auto p-12 mb-24">
-      <CardCarousel />
-    </section>
-    <footer
-      class="bg-customYellow h-auto pl-12 pr-12 pt-32 pb-32 flex justify-between items-center"
-    >
-      <Footer />
-    </footer>
+    <CardCarousel />
+    <Footer />
   </main>
 </template>
 

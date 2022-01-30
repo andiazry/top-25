@@ -1,8 +1,49 @@
 [
   {
+    "id": 1,
     "name": "Andi Azry",
     "occupation": "Designer",
     "location": "NYC, NY",
+    "img": "../src/img/azry-profile.jpg",
+    "top-25-songs": [
+      {
+        "position": 1,
+        "song": "Angeles",
+        "artist": "Elliott Smith",
+        "album": "Either/Or"
+      },
+      {
+        "position": 2,
+        "song": "Girl from the North Country",
+        "artist": "Bob Dylan",
+        "album": "The Freewheelin' Bob Dylan"
+      },
+      {
+        "position": 3,
+        "song": "Strangers",
+        "artist": "The Kinks",
+        "album": "Lola Versus Powerman and the Moneygoround, Pt. One"
+      },
+      {
+        "position": 4,
+        "song": "Old Soul Song (for the New World Order",
+        "artist": "Bright Eyes",
+        "album": "I'm Wide Awake, It's Morning"
+      },
+      {
+        "position": 5,
+        "song": "40 Days",
+        "artist": "Slowdive",
+        "album": "Souvlaki"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "Cathleen Clarke",
+    "occupation": "Artist",
+    "location": "NYC, NY",
+    "img": "../src/img/cath-profile.jpg",
     "top-25-songs": [
       {
         "position": 1,
@@ -25,9 +66,11 @@
     ]
   },
   {
-    "name": "Cathleen Clarke",
-    "occupation": "Artist",
-    "location": "NYC, NY",
+    "id": 3,
+    "name": "Jimmy Clarke",
+    "occupation": "Musician",
+    "location": "Chicago, IL",
+    "img": "../src/img/azry-profile.jpg",
     "top-25-songs": [
       {
         "position": 1,
