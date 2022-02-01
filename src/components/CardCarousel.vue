@@ -1,7 +1,10 @@
 <template>
+  <div>
+    <h2 class="font-pangramBlack text-xl ml-12 uppercase">Real hip folk</h2>
+  </div>
   <section class="flex flex-nowrap overflow-x-auto p-12 mb-24">
     <div class="flex">
-      <a href="list-template.html">
+      <router-link to="/songs">
         <div>
           <div
             class="relative flex overflow-y-hidden w-[450px] h-[650px] bg-zinc-900 mr-6 transition hover:rotate-3"
@@ -18,7 +21,7 @@
             <p class="text-xl">Designer — NYC, NY</p>
           </div>
         </div>
-      </a>
+      </router-link>
       <div>
         <div
           class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-3 rounded-t-full"
@@ -59,8 +62,12 @@
           <img class="object-cover" src="../img/test-img.jpg" />
         </div>
         <div class="mt-6">
-          <p class="text-3xl font-semibold">Jimmy Clarke</p>
-          <p class="text-lg text-stone-800">Musician — Chicago, IL</p>
+          <ul>
+            <li>
+              <p class="text-3xl font-semibold">Jimmy Clarke</p>
+              <p class="text-lg text-stone-800">Musician — Chicago, IL</p>
+            </li>
+          </ul>
         </div>
       </div>
     </div>
@@ -68,11 +75,11 @@
 </template>
 
 <script>
-import data from "../data.json";
+import userdata from "../andi-data.json";
 export default {
   name: "CardCarousel",
   data() {
-    return { users: data };
+    return { userdata };
   },
 };
 </script>

@@ -1,0 +1,45 @@
+[
+  {
+    "id": 1,
+    "title": "Angeles",
+    "album": "Either/Or",
+    "artist": "Elliott Smith",
+    "img": "/src/img/either-or.jpg",
+    "isTop": true
+  },
+  {
+    "id": 2,
+    "title": "Girl from the North Country",
+    "album": "The Freewheelin' Bob Dylan",
+    "artist": "Bob Dylan",
+    "img": "/src/img/freewheelin.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Strangers",
+    "album": "Lola Versus Powerman and the Moneygoround, Pt. One",
+    "artist": "The Kinks",
+    "img": "/src/img/lola.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Old Soul Song (for the New World Order)",
+    "album": "I'm Wide Awake, It's Morning",
+    "artist": "Bright Eyes",
+    "img": "/src/img/wideawake.jpg"
+  },
+  {
+    "id": 5,
+    "title": "40 Days",
+    "album": "Souvlaki",
+    "artist": "Slowdive",
+    "img": "/src/img/souvlaki.jpg"
+  },
+  {
+    "id": 6,
+    "title": "On A Plain",
+    "album": "MTV Unplugged in New York",
+    "artist": "Nirvana",
+    "img": "/src/img/either-or.jpg"
+  }
+]
