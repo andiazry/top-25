@@ -8,16 +8,14 @@
     font-weight: 400;
     src: url("./fonts/EditorialNew-Regular.otf");
   }
-
   @font-face {
-    font-family: "pangramBlack";
+    font-family: "gt-black";
     font-weight: 900;
-    src: url("./fonts/Pangram-Black.otf");
+    src: url("./fonts/GT-America-Extended-Black.otf");
   }
-
   @font-face {
-    font-family: "pangram";
+    font-family: "gt-regular";
     font-weight: 400;
-    src: url("./fonts/Pangram-Regular.otf");
+    src: url("./fonts/GT-America-Extended-Regular.otf");
   }
 }

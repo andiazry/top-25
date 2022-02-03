@@ -1,16 +1,16 @@
 <template>
   <div>
-    <h2 class="font-pangramBlack text-xl ml-12 uppercase">Real hip folk</h2>
+    <h2 class="font-gtBlack text-xl ml-12 uppercase">Top Songs</h2>
   </div>
   <section class="flex flex-nowrap overflow-x-auto p-12 mb-24">
     <div class="flex">
       <router-link to="/songs">
         <div>
           <div
-            class="relative flex overflow-y-hidden w-[450px] h-[650px] bg-zinc-900 mr-6 transition hover:rotate-3"
+            class="relative flex overflow-y-hidden w-[450px] h-[650px] bg-zinc-900 mr-6 transition hover:rotate-2"
           >
             <div
-              class="absolute top-3 left-3 bg-red-600 rounded-full p-2 px-4 font-pangram font-bold text-lg text-white"
+              class="absolute top-3 left-3 bg-customYellow rounded-full p-2 px-4 font-gtRegular font-bold text-lg text-white"
             >
               Fresh!
             </div>
@@ -24,7 +24,7 @@
       </router-link>
       <div>
         <div
-          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-3 rounded-t-full"
+          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-2"
         >
           <img class="object-cover" src="../img/cath-profile.jpg" />
         </div>
@@ -35,7 +35,7 @@
       </div>
       <div>
         <div
-          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-3"
+          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-2"
         >
           <img class="object-cover" src="../img/test-img.jpg" />
         </div>
@@ -46,7 +46,7 @@
       </div>
       <div>
         <div
-          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-3 rounded-full"
+          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-2"
         >
           <img class="object-cover" src="../img/test-img.jpg" />
         </div>
@@ -57,7 +57,7 @@
       </div>
       <div>
         <div
-          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-3"
+          class="flex overflow-y-hidden w-[450px] h-[650px] mr-6 transition hover:rotate-2"
         >
           <img class="object-cover" src="../img/test-img.jpg" />
         </div>

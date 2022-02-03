@@ -8,8 +8,8 @@ module.exports = {
     extend: {
       fontFamily: {
         editorial: ["editorial", "serif"],
-        pangramBlack: ["pangramBlack", "sans-serif"],
-        pangram: ["pangram", "sans-serif"],
+        gtBlack: ["gt-black", "sans-serif"],
+        gtRegular: ["gt-regular", "sans-serif"],
       },
       colors: {
         customYellow: "#FB1E01",
