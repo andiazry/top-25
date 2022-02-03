@@ -4,7 +4,7 @@
     "title": "Angeles",
     "album": "Either/Or",
     "artist": "Elliott Smith",
-    "img": "/src/img/either-or.jpg",
+    "img": "/src/img/andi-albums/either-or.jpg",
     "isTop": true
   },
   {
@@ -12,34 +12,62 @@
     "title": "Girl from the North Country",
     "album": "The Freewheelin' Bob Dylan",
     "artist": "Bob Dylan",
-    "img": "/src/img/freewheelin.jpg"
+    "img": "/src/img/andi-albums/freewheelin.jpg"
   },
   {
     "id": 3,
     "title": "Strangers",
     "album": "Lola Versus Powerman and the Moneygoround, Pt. One",
     "artist": "The Kinks",
-    "img": "/src/img/lola.jpg"
+    "img": "/src/img/andi-albums/lola.jpg"
   },
   {
     "id": 4,
     "title": "Old Soul Song (for the New World Order)",
     "album": "I'm Wide Awake, It's Morning",
     "artist": "Bright Eyes",
-    "img": "/src/img/wideawake.jpg"
+    "img": "/src/img/andi-albums/wideawake.jpg"
   },
   {
     "id": 5,
     "title": "40 Days",
     "album": "Souvlaki",
     "artist": "Slowdive",
-    "img": "/src/img/souvlaki.jpg"
+    "img": "/src/img/andi-albums/souvlaki.jpg"
   },
   {
     "id": 6,
     "title": "On A Plain",
     "album": "MTV Unplugged in New York",
     "artist": "Nirvana",
-    "img": "/src/img/either-or.jpg"
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 7,
+    "title": "A Good Man Is Hard to Find",
+    "album": "Seven Swans",
+    "artist": "Sufjan Stevens",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 8,
+    "title": "Between the Bars",
+    "album": "Either/Or",
+    "artist": "Elliott Smith",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 9,
+    "title": "I Just Wasn't Made For These Times",
+    "album": "Pet Sounds",
+    "artist": "The Beach Boys",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 10,
+    "title": "Love Will Tear Us Apart",
+    "album": "Love Will Tear Us Apart",
+    "artist": "Joy Division",
+    "img": "/src/img/andi-albums/either-or.jpg"
   }
 ]

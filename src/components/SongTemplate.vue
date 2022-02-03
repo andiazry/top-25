@@ -38,6 +38,7 @@
           <ul class="list-none font-editorial">
             <li
               v-for="song in userdata"
+              :key="song.id"
               class="flex flex-row border-y border-b border-black py-6 justify-between items-center"
             >
               <div class="flex flex-row items-center">
