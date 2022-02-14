@@ -69,5 +69,75 @@
     "album": "Love Will Tear Us Apart",
     "artist": "Joy Division",
     "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 11,
+    "title": "If You See Her, Say Hello - Take 1",
+    "album": "More Blood, More Tracks: The Bootleg Series Vol 14.",
+    "artist": "Bob Dylan",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 12,
+    "title": "Alright",
+    "album": "To Pimp A Butterfly",
+    "artist": "Kendrick Lamar",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 13,
+    "title": "This Charming Man",
+    "album": "The Smiths",
+    "artist": "The Smiths",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 14,
+    "title": "Only In Dreams",
+    "album": "Blue Album",
+    "artist": "Weezer",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 15,
+    "title": "All My Friends",
+    "album": "Sound of Silver",
+    "artist": "LCD Soundsystem",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 16,
+    "title": "New Slang",
+    "album": "Oh, Inverted World",
+    "artist": "The Shins",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 17,
+    "title": "Dear Chicago",
+    "album": "Demolition",
+    "artist": "Ryan Adams",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 18,
+    "title": "Beach Baby",
+    "album": "Blood Bank",
+    "artist": "Bon Iver",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 19,
+    "title": "All I Need",
+    "album": "In Rainbows",
+    "artist": "Radiohead",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 20,
+    "title": "Olympia WA",
+    "album": "...And Out Come The Wolves",
+    "artist": "Rancid",
+    "img": "/src/img/andi-albums/either-or.jpg"
   }
 ]
