@@ -17,8 +17,8 @@
             <img class="object-cover" src="../img/azry-profile.jpg" />
           </div>
           <div class="mt-6">
-            <p class="text-3xl font-bold mb">Andi Azry</p>
-            <p class="text-xl">Designer — NYC, NY</p>
+            <p class="text-2xl font-bold mb">Andi Azry</p>
+            <p class="text-md">Designer — NYC, NY</p>
           </div>
         </div>
       </router-link>

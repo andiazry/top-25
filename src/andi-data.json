@@ -139,5 +139,19 @@
     "album": "...And Out Come The Wolves",
     "artist": "Rancid",
     "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 21,
+    "title": "Habit",
+    "album": "More Than Any Other Day",
+    "artist": "Ought",
+    "img": "/src/img/andi-albums/either-or.jpg"
+  },
+  {
+    "id": 22,
+    "title": "Habit",
+    "album": "More Than Any Other Day",
+    "artist": "Ought",
+    "img": "/src/img/andi-albums/either-or.jpg"
   }
 ]
