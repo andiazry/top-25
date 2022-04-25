@@ -18,4 +18,14 @@
     font-weight: 400;
     src: url("./fonts/GT-America-Extended-Regular.otf");
   }
+  @font-face {
+    font-family: "montreal-bold";
+    font-weight: 800;
+    src: url("./fonts/NeueMontreal-Bold.otf");
+  }
+  @font-face {
+    font-family: "montreal-regular";
+    font-weight: 400;
+    src: url("./fonts/NeueMontreal-Regular.otf");
+  }
 }

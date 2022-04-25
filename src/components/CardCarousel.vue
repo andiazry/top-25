@@ -17,8 +17,8 @@
             <img class="object-cover" src="../img/azry-profile.jpg" />
           </div>
           <div class="mt-6">
-            <p class="text-2xl font-bold mb">Andi Azry</p>
-            <p class="text-md">Designer — NYC, NY</p>
+            <p class="text-2xl font-bold mb-1">Andi Azry</p>
+            <p class="text-md text-neutral-400">Designer — NYC, NY</p>
           </div>
         </div>
       </router-link>
@@ -29,8 +29,8 @@
           <img class="object-cover" src="../img/cath-profile.jpg" />
         </div>
         <div class="mt-6">
-          <p class="text-3xl font-bold mb">Cathleen Clarke</p>
-          <p class="text-lg text-stone-800">Artist — NYC, NY</p>
+          <p class="text-2xl font-bold mb-1">Cathleen Clarke</p>
+          <p class="text-md text-neutral-400">Artist — NYC, NY</p>
         </div>
       </div>
       <div>
@@ -40,8 +40,8 @@
           <img class="object-cover" src="../img/test-img.jpg" />
         </div>
         <div class="mt-6">
-          <p class="text-3xl font-semibold mb">Jimmy Clarke</p>
-          <p class="text-lg text-stone-800">Musician — Chicago, IL</p>
+          <p class="text-2xl font-semibold mb">Jimmy Clarke</p>
+          <p class="text-md text-stone-800">Musician — Chicago, IL</p>
         </div>
       </div>
       <div>
@@ -51,8 +51,8 @@
           <img class="object-cover" src="../img/test-img.jpg" />
         </div>
         <div class="mt-6">
-          <p class="text-3xl font-semibold">Maurice Latzke</p>
-          <p class="text-lg text-stone-800">Art Director — Shanghai, China</p>
+          <p class="text-2xl font-semibold">Maurice Latzke</p>
+          <p class="text-md text-stone-800">Art Director — Shanghai, China</p>
         </div>
       </div>
       <div>
@@ -64,8 +64,8 @@
         <div class="mt-6">
           <ul>
             <li>
-              <p class="text-3xl font-semibold">Jimmy Clarke</p>
-              <p class="text-lg text-stone-800">Musician — Chicago, IL</p>
+              <p class="text-2xl font-semibold">Jimmy Clarke</p>
+              <p class="text-md text-stone-800">Musician — Chicago, IL</p>
             </li>
           </ul>
         </div>

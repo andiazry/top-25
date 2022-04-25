@@ -1,6 +1,6 @@
 <template>
   <footer
-    class="bg-customYellow h-auto pl-12 pr-12 py-52 flex justify-between items-center text-white"
+    class="bg-black h-auto pl-12 pr-12 py-52 flex justify-between items-center text-white"
   >
     <div>
       <h2 class="font-gtBlack text-xl uppercase mb-12">
