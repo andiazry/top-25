@@ -3,12 +3,13 @@
     class="bg-black h-auto pl-12 pr-12 py-52 flex justify-between items-center text-white"
   >
     <div>
-      <h2 class="font-gtBlack text-xl uppercase mb-12">
+      <h2 class="font-neueMontrealBold text-2xl uppercase mb-12">
         Tell us what you like
       </h2>
-      <div class="font-editorial text-4xl">
-        <p class="mb-2">Do you have a top twenty-five list to share with us?</p>
-        <p>Drop us a message and we'll check it out!</p>
+      <div class="font-editorial text-6xl">
+        <p class="mb-2">Do you have a Top 25 list to share with us?</p>
+        <p class="mb-6">Drop us a message and we'll check it out!</p>
+        <span>👌</span>
       </div>
     </div>
     <div>

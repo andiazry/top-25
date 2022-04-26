@@ -3,22 +3,32 @@
     <h2 class="font-neueMontrealBold text-2xl uppercase my-6 mb-24">
       Featured list
     </h2>
-    <div class="grid grid-cols-4">
-      <div class="col-span-1 mr-6 flex self-end">
+    <div class="grid grid-cols-4 flex items-end">
+      <div class="col-span-1 mr-6">
         <div>
-          <p class="text-6xl pb-6">🌵</p>
+          <div
+            class="bg-customYellow rounded-full w-max p-2 px-6 font-neueMontrealRegular text-xl text-white mb-4"
+          >
+            Fresh!
+          </div>
           <h2 class="text-6xl font-neueMontrealBold pb-4">Jimmy Clarke</h2>
-          <h3 class="text-2xl font-neueMontrealRegular">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
+          <span class="block text-2xl pb-4"
+            >🎵 Top song: Elliott Smith &mdash; Angeles</span
+          >
+          <h3 class="text-xl font-neueMontrealRegular pb-12">
+            "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
             voluptates praesentium doloremque voluptatum, laudantium nesciunt,
             sint voluptas accusamus sed, consequatur necessitatibus sapiente
-            culpa blanditiis nostrum rerum architecto rem a labore.
+            culpa blanditiis nostrum rerum architecto rem a labore."
           </h3>
+          <button class="font-neueMontrealBold text-md uppercase underline">
+            View Top 25
+          </button>
         </div>
       </div>
       <div class="col-span-1"></div>
       <div class="col-span-2">
-        <img src="../img/jim.jpg" />
+        <img class="align-bottominline" src="../img/jim.jpg" />
       </div>
     </div>
   </div>
