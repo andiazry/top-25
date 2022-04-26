@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h2 class="font-gtBlack text-xl ml-12 uppercase">Top Songs</h2>
+  <div class="mx-12 border-t-2 border-black">
+    <h2 class="font-neueMontrealBold text-2xl uppercase my-6">All lists</h2>
   </div>
   <section class="flex flex-nowrap overflow-x-auto p-12 mb-24">
     <div class="flex">
@@ -17,8 +17,8 @@
             <img class="object-cover" src="../img/azry-profile.jpg" />
           </div>
           <div class="mt-6">
-            <p class="text-2xl font-bold mb-1">Andi Azry</p>
-            <p class="text-md text-neutral-400">Designer — NYC, NY</p>
+            <p class="text-3xl mb-1">Andi Azry</p>
+            <p class="text-xl">Designer — NYC, NY</p>
           </div>
         </div>
       </router-link>
@@ -29,8 +29,8 @@
           <img class="object-cover" src="../img/cath-profile.jpg" />
         </div>
         <div class="mt-6">
-          <p class="text-2xl font-bold mb-1">Cathleen Clarke</p>
-          <p class="text-md text-neutral-400">Artist — NYC, NY</p>
+          <p class="text-3xl mb-1">Cathleen Clarke</p>
+          <p class="text-xl">Artist — NYC, NY</p>
         </div>
       </div>
       <div>
