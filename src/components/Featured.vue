@@ -3,8 +3,8 @@
     <h2 class="font-neueMontrealBold text-2xl uppercase my-6 mb-24">
       Featured list
     </h2>
-    <div class="grid grid-cols-4 flex items-end">
-      <div class="col-span-1 mr-6">
+    <div class="grid lg:grid-cols-4 flex items-end">
+      <div class="col-span-1 lg:mr-6">
         <div>
           <div
             class="bg-customYellow rounded-full w-max p-2 px-6 font-neueMontrealRegular text-xl text-white mb-4"
@@ -27,7 +27,7 @@
         </div>
       </div>
       <div class="col-span-1"></div>
-      <div class="col-span-2">
+      <div class="col-span-2 md:order-first md:mb-12">
         <img class="align-bottominline" src="../img/jim.jpg" />
       </div>
     </div>

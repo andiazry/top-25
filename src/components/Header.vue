@@ -1,8 +1,8 @@
 <template>
-  <header class="grid grid-cols-2 m-12 mb-24">
+  <header class="grid lg:grid-cols-2 m-12 mb-24">
     <div class="col-span-1">
       <h1
-        class="font-neueMontrealBold text-[400px] leading-[300px] uppercase mb-16"
+        class="font-neueMontrealBold md:text-[260px] md:leading-[220px] lg:text-[400px] lg:leading-[300px] uppercase md:mb-8 xl:mb-16"
       >
         Top <br />25
       </h1>
