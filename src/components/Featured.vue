@@ -4,7 +4,7 @@
       Featured list
     </h2>
     <div class="grid lg:grid-cols-4 flex items-end">
-      <div class="col-span-1 lg:mr-6">
+      <div class="lg:col-span-1 lg:mr-6">
         <div>
           <div
             class="bg-customYellow rounded-full w-max p-2 px-6 font-neueMontrealRegular text-xl text-white mb-4"
@@ -26,8 +26,8 @@
           </button>
         </div>
       </div>
-      <div class="col-span-1"></div>
-      <div class="col-span-2 md:order-first md:mb-12">
+      <div class="lg:col-span-1"></div>
+      <div class="order-first mb-12 lg:mb-0 lg:order-none lg:col-span-2">
         <img class="align-bottominline" src="../img/jim.jpg" />
       </div>
     </div>
