@@ -1,8 +1,12 @@
 <template>
-  <div class="mx-12 border-t-2 border-black">
-    <h2 class="font-neueMontrealBold text-2xl uppercase my-6">All lists</h2>
+  <div class="mx-4 md:mx-12 border-t-2 border-black">
+    <h2
+      class="font-neueMontrealBold text-lg md:text-2xl uppercase my-2 md:my-6 pb-6 md:pb-12"
+    >
+      All lists
+    </h2>
   </div>
-  <section class="grid grid-cols-3 gap-8 p-12 mb-24">
+  <section class="grid md:grid-cols-3 gap-8 p-4 md:p-12 mb-24">
     <router-link to="/songs" class="col-span-1">
       <div class="transition hover:rotate-1">
         <div>
