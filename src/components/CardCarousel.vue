@@ -6,50 +6,55 @@
       All lists
     </h2>
   </div>
-  <section class="grid md:grid-cols-3 gap-8 p-4 md:p-12 mb-24">
-    <router-link to="/songs" class="col-span-1">
+  <section
+    class="grid md:grid-cols-2 lg:grid-cols-3 gap-12 md:gap-8 p-4 md:p-12 mb-24"
+  >
+    <router-link to="/songs">
       <div class="transition hover:rotate-1">
         <div>
           <img
-            class="object-cover aspect-[7/8]"
+            class="object-cover md:aspect-[7/8] h-96 lg:h-min w-min"
             src="../img/azry-profile.jpg"
           />
         </div>
-        <div class="mt-6">
-          <p class="text-3xl mb-1">Andi Azry</p>
-          <p class="text-xl mb-2">Designer — NYC, NY</p>
-          <span class="block text-xl"
+        <div class="mt-4 lg:mt-6">
+          <p class="text-2xl lg:text-3xl lg:mb-1">Andi Azry</p>
+          <p class="text-lg lg:text-xl mb-2">Designer — NYC, NY</p>
+          <span class="text-lg lg:text-xl"
             >🎵 Top song: Elliott Smith &mdash; Angeles</span
           >
         </div>
       </div>
     </router-link>
-    <router-link to="/songs" class="col-span-1">
+    <router-link to="/songs">
       <div class="transition hover:rotate-1">
         <div>
           <img
-            class="object-cover aspect-[7/8]"
+            class="object-cover md:aspect-[7/8] h-96 lg:h-min w-min"
             src="../img/cath-profile.jpg"
           />
         </div>
-        <div class="mt-6">
-          <p class="text-3xl mb-1">Cathleen Clarke</p>
-          <p class="text-xl mb-2">Artist — NYC, NY</p>
-          <span class="block text-xl"
+        <div class="mt-4 lg:mt-6">
+          <p class="text-2xl lg:text-3xl lg:mb-1">Cathleen Clarke</p>
+          <p class="text-lg lg:text-xl mb-2">Artist — NYC, NY</p>
+          <span class="text-lg lg:text-xl"
             >🎵 Top song: Elliott Smith &mdash; Angeles</span
           >
         </div>
       </div>
     </router-link>
-    <router-link to="/songs" class="col-span-1">
+    <router-link to="/songs">
       <div class="transition hover:rotate-1">
         <div>
-          <img class="object-none aspect-[7/8]" src="../img/jim.jpg" />
+          <img
+            class="object-cover md:aspect-[7/8] h-96 lg:h-min w-min"
+            src="../img/jim.jpg"
+          />
         </div>
         <div class="mt-6">
-          <p class="text-3xl mb-1">Jimmy Clarke</p>
-          <p class="text-xl mb-2">Musician — Chicago, IL</p>
-          <span class="block text-xl"
+          <p class="text-2xl lg:text-3xl lg:mb-1">Jimmy Clarke</p>
+          <p class="text-lg lg:text-xl mb-2">Musician — Chicago, IL</p>
+          <span class="text-lg lg:text-xl"
             >🎵 Top song: Elliott Smith &mdash; Angeles</span
           >
         </div>

@@ -13,10 +13,10 @@
           Fresh!
         </div>
         <h2 class="text-6xl font-neueMontrealBold pb-4">Jimmy Clarke</h2>
-        <span class="block text-xl md:text-2xl pb-8"
+        <span class="block text-lg md:text-2xl pb-8"
           >🎵 Top song: Elliott Smith &mdash; Angeles</span
         >
-        <h3 class="text-xl font-neueMontrealRegular pb-12">
+        <h3 class="text-2xl md:text-xl font-neueMontrealRegular pb-12">
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Laboriosam
           voluptates praesentium doloremque voluptatum, laudantium nesciunt,
           sint voluptas accusamus sed, consequatur necessitatibus sapiente culpa
