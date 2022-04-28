@@ -16,7 +16,7 @@ module.exports = {
       colors: {
         customYellow: "#FB1E01",
         offWhite: "#F6F6F4",
-        customBlack: "#231f20",
+        customBlack: "#231f20`",
       },
     },
   },
