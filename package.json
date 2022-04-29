@@ -1,7 +1,7 @@
 {
   "name": "top25-vue",
   "version": "0.0.0",
-  "homepage": "https://andiazry.github.io/top-25",
+  "homepage": "https://andiazry.github.io/",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
