@@ -1,12 +1,14 @@
 <template>
-  <body class="text-neutral-800 bg-offWhite m-4 md:m-12">
+  <body class="text-neutral-800 bg-offWhite">
+    <ProfileHeader />
     <main class="grid lg:grid-cols-2">
-      <section class="mb-24 lg:mb-0">
-        <img
-          src="../img/azry-profile.jpg"
-          class="w-5/12 object-contain mb-6 rounded-2xl"
-        />
-        <div>
+      <section class="lg:grid lg:grid-cols-3 mb-16 lg:mb-0 p-4 lg:px-12 py-32">
+        <div class="lg:col-span-2">
+          <img
+            src="../img/azry-profile.jpg"
+            class="w-fit md:w-7/12 object-contain mb-6 rounded-lg"
+          />
+
           <h1 class="text-6xl pb-2">Andi Azry 👌</h1>
           <h2 class="text-xl pb-12">Designer &mdash; NYC, NY</h2>
           <h3 class="font-neueMontrealBold text-xl pb-2">
@@ -20,11 +22,13 @@
           </p>
         </div>
       </section>
-      <section class="lg:pl-8 lg:h-screen lg:inline-block lg:overflow-y-auto">
+      <section
+        class="p-4 lg:px-12 py-32 lg:h-screen lg:inline-block lg:overflow-y-auto"
+      >
         <iframe
-          class=""
+          class="mb-6"
           src="https://open.spotify.com/embed/playlist/1cdwNTnM4qLBV9wScLPi4n?utm_source=generator&theme=0"
-          width="65%"
+          width=""
           height="80"
           frameborder="0"
           allowfullscreen=""
@@ -40,10 +44,10 @@
               <div class="flex flex-row items-center">
                 <img class="mr-4 w-24 h-24" :src="song.img" />
                 <div>
-                  <p class="text-2xl font-semibold">
+                  <p class="text-lg md:text-2xl font-semibold">
                     {{ song.id }}. {{ song.title }}
                   </p>
-                  <p class="font-neueMontrealRegular text-lg">
+                  <p class="font-neueMontrealRegular text-md md:text-lg">
                     {{ song.artist }} —
                     <span class="italic">{{ song.album }}</span>
                   </p>
@@ -51,7 +55,7 @@
               </div>
               <div
                 v-if="song.isTop"
-                class="bg-amber-400 text-black rounded-full p-2 px-4 w-fit rotate-6 font-neueMontrealRegular text-lg"
+                class="bg-amber-400 text-black rounded-full p-2 px-4 w-fit rotate-6 font-neueMontrealRegular text-sm md:text-lg"
               >
                 You're a winner!
               </div>
@@ -65,8 +69,10 @@
 
 <script>
 import userdata from "../andi-data.json";
+import ProfileHeader from "../components/ProfileHeader.vue";
 export default {
   name: "SongTemplate",
+  components: { ProfileHeader },
   data() {
     return { userdata };
   },
