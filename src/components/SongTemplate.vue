@@ -2,7 +2,7 @@
   <body class="text-neutral-800 bg-offWhite">
     <ProfileHeader />
     <main class="grid lg:grid-cols-2">
-      <section class="lg:grid lg:grid-cols-3 mb-16 lg:mb-0 p-4 lg:px-12 py-32">
+      <section class="lg:grid lg:grid-cols-3 mb-16 lg:mb-0 p-4 lg:px-12 pt-32">
         <div class="lg:col-span-2">
           <img
             src="../img/azry-profile.jpg"
@@ -23,7 +23,7 @@
         </div>
       </section>
       <section
-        class="p-4 lg:px-12 py-32 lg:h-screen lg:inline-block lg:overflow-y-auto"
+        class="p-4 lg:px-12 pt-32 lg:h-screen lg:inline-block lg:overflow-y-auto"
       >
         <iframe
           class="mb-6"
@@ -55,7 +55,7 @@
               </div>
               <div
                 v-if="song.isTop"
-                class="bg-amber-400 text-black rounded-full p-2 px-4 w-fit rotate-6 font-neueMontrealRegular text-sm md:text-lg"
+                class="bg-amber-400 text-black rounded-full p-2 px-4 w-fit rotate-6 font-neueMontrealRegular text-sm md:text-lg z=0"
               >
                 You're a winner!
               </div>
